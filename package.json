@@ -4,7 +4,7 @@
   "description": "brewing managment system based on git",
   "main": "index.js",
   "scripts": {
-      "build": "reactpack src/index.js"
+    "build": "reactpack --dev src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/seanbarzilay/beerhub#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gl-react": "^2.2.5",
+    "gl-react-dom": "^2.2.2",
     "react": "^15.2.1",
+    "react-bootstrap": "^0.30.0",
+    "react-canvas": "^1.1.0",
     "react-dom": "^15.2.1"
   },
   "devDependencies": {

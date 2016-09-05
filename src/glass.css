@@ -1,0 +1,19 @@
+img {
+    /*  To contain the image to the confines of the div  */
+    max-width: 100%;
+}
+
+.glass {
+    -webkit-filter : hue-rotate(180deg);
+    filter : hue-rotate(180deg);
+}
+
+/*.glass::after {*/
+    /*display: block;*/
+    /*position: relative;*/
+    /*background-image: linear-gradient(to bottom, transparent 0%, red 100%, white 100%);*/
+    /*margin-top: -150px;*/
+    /*height: 150px;*/
+    /*width: 100%;*/
+    /*content: '';*/
+/*}*/
